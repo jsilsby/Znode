@@ -2,34 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Znode</title>
+    <title>Software Visualizer</title>
     <link rel="stylesheet" href="css/style.css" type="text/css" /> 
+	<link rel="stylesheet" href="css/fileman.css" type="text/css" />
+	<link rel="stylesheet" href="css/editor.css" type="text/css" />
+	<link rel="stylesheet" href="css/visualizer.css" type="text/css" />
+	
     <script type="text/javascript" src="js/libs/jquery.min.js"></script>
     <script type="text/javascript" src="js/libs/jquery.color.js"></script>
     <script type="text/javascript" src="js/libs/raphael.js"></script>
     <script type="text/javascript" src="js/znode/nodegraph.js"></script>
     <script type="text/javascript" src="js/znode/ui.js"></script>
+
   </head>
   <body>
-    <div id="openWin">
-      <div id="fileTitle">Files:</div>
-      <div id="files"></div>
-    </div>
-    <div id="overlay"></div>
-    <div id="controls">
-      <div id="logo" >Znode</div>
-      <div id="save" class="btn">Save</div>
-      <div id="open" class="btn">Open</div>
-      <div id="clear" class="btn">Clear All</div>
-      <div id="help" class="btn">Help</div>
-      <div id="saveForm">
-        <form id="nameForm">
-         Name :
-         <input type="text" name="filename" id="filename" spellcheck="false"/>
-        </form>
-      </div>
-    </div>
-    <div id="canvas"></div>
+	<h1>
+		Will insert Software Visualizer image here
+	</h1>
+	
+	<div id ="fileman"> 
+		<h2>resource browser</h2>
+		<ul> 
+		    <ul> <h3>src</h3>
+				<li> test.js </li>
+			</ul>
+			<ul> <h3>img</h3>
+				<li> img1.gif </li>
+			</ul>
+		</ul>
+	</div>
+	<div id ="editor">
+		<div id="tabs"> 
+			<button type="button"> save project </button>
+			<button type="button"> load project </button>
+			<select>
+					<option>source code view</option>
+					<option>hierarchy view</option>
+			</select>
+		</div>
+		<div id="canvas"></div>
+	</div>
   </body>
 </html>
   

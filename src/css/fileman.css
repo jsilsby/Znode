@@ -1,0 +1,27 @@
+#fileman { width:210px;overflow:auto;padding:0 5px;position:absolute;top:60px;bottom:190px; }
+
+#fileman a { display:block; cursor:pointer; cursor:hand; font-family:arial; text-decoration:none; font-size:12px;color:black; }
+#fileman a:hover { text-decoration:underline; }
+#fileman div { margin-left:10px;}
+#fileman a.ainline { display:inline; }
+
+#fileman .projects { font-weight:bold; }
+#fileman .project { padding-left:18px;display:block;font-weight:bold;color:#585858;background-image:url("/ecco/images/project.gif");background-repeat:no-repeat;/*bg*/ }
+#fileman .directory { padding-left:18px;font-weight:bold;color:gray;background-image:url("/ecco/images/directory.gif");background-repeat:no-repeat;/*bg*/ }
+#fileman .file { padding-left:18px;background-image:url("/ecco/images/file.gif");background-repeat:no-repeat;/*bg*/ }
+
+#fileman .closed { display:none; }	
+#fileman .opened { display:block; }
+
+#fileman-menu { padding:0;position:absolute;border-top:1px solid gray;border-right:2px solid gray;border-bottom:2px solid gray;border-left:1px solid gray;background-color:#ddd;display:none;-moz-border-radius:3px;border-radius:3px; }
+#fileman-menu a { display:block;cursor:pointer;cursor:hand;text-decoration:none;padding:1px 3px 1px 20px;color:black }
+#fileman-menu a:hover { background-color:#eee; }
+#fileman-menu .newFile { background:url("/ecco/images/new-file.gif") no-repeat 2px; }
+#fileman-menu .newDirectory { background:url("/ecco/images/new-directory.gif") no-repeat 2px; }
+#fileman-menu .newProject { background:url("/ecco/images/new-project.gif") no-repeat 2px; }
+#fileman-menu .upload { background:url("/ecco/images/upload.gif") no-repeat 2px; }
+#fileman-menu .download { background:url("/ecco/images/download.gif") no-repeat 2px; }
+#fileman-menu .rename { background:url("/ecco/images/rename.gif") no-repeat 2px; }
+#fileman-menu .move { background:url("/ecco/images/move.gif") no-repeat 2px; }
+#fileman-menu .mail { background:url("/ecco/images/mail.gif") no-repeat 2px; }
+#fileman-menu .remove { background:url("/ecco/images/remove.gif") no-repeat 2px; }
